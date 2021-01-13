@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.landing {
+    height: 100%;
+    position: relative;
+    background: linear-gradient(73deg, #2d71a8, #004bee) !important;
+    color: #FFF;
+}
+
+.content {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    text-align:center!important;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    margin: 0;
+}
+
+p {
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+#getstarted {
+    background-color: rgb(255, 183, 28);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+#learnmore {
+    font-size: 15px;
+    color: rgb(255, 183, 28);
+}
+
+.cmds {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+@media(min-width: 1200px) {
+    .cmds {
+        width: 1170px;
+    }
+}
+@media(min-width: 992px) {
+    .cmds {
+        width: 970px;
+    }
+}
+@media(min-width: 768px) {
+    .cmds {
+        width: 750px;
+    }
+}
+
+.cmds p {
+    color: rgb(73, 223, 110);
+    font-size: 20px;
+}
+
+.cmds span {
+    color: rgb(73, 138, 223);
+}
+
+.cmd-outer {
+    background-color:#636363;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+    color: #FFF;
+}
